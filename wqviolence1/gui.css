@@ -1,0 +1,97 @@
+.container{
+    width: 900px;
+    margin: 0 auto;
+    border: thin solid grey;
+}
+
+.headicon
+    {width:150px;
+}
+
+.topheader{
+    background-color: #e6e6e6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topheader h1{
+    display: inline-block;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #005f5f;
+}
+
+.mainContent{
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+overflow: auto;
+}
+
+.lcont{ 
+    float:left;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.rcont{ 
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+}
+
+.rcont img{
+    width: 100%;
+}
+
+.boldtext{
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 610px) {
+    .topheader h1{
+        display: block;      
+        font-size: 1.5em;
+        padding-left: 10px;
+    }
+    .headicon{
+        width:70px;
+    }
+} 
+
+body{
+    margin:0;
+}
+.container{
+    width: 100%;
+    border-width: 0;
+}
